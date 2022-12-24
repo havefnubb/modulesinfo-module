@@ -1,4 +1,4 @@
-Servinfo module
+Modulesinfo module
 ==============
 
 This is a module for Jelix, displaying list of modules installed into the 
