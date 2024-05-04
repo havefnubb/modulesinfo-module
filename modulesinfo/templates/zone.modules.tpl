@@ -34,8 +34,7 @@
         {foreach $module->author as $author}
         <tr class="{cycle array('odd','even')}">
             <th>{@modulesinfo~modules.about.authors@} :</th>
-            <td> {if array_key_exists('email',$author)}
-                  {if $author->email != ''}<a href="mailto:{$author->email}">{$author->name|escxml}{/if}
+            <td>{if $author->email != ''}<a href="mailto:{$author->email}">{$author->name|escxml}
                   {else}{$author->name|escxml}{/if}</a></td>
         </tr>
         {/foreach}
