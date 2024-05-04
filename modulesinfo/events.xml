@@ -2,5 +2,6 @@
 <events xmlns="http://jelix.org/ns/events/1.0">
     <listener name="modulesinfo">
         <event name="masteradminGetMenuContent" />
+        <event name="adminui.loading" />
     </listener>
 </events>
